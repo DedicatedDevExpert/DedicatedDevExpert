@@ -1,6 +1,6 @@
-# My Profile
+# Click on my profile
 
-[![Demo](readme.png "Demo")](https://dedicateddevexpert.github.io/DedicatedDevExpert/)
+[![Click on my profile](readme.png "Demo")](https://dedicateddevexpert.github.io/DedicatedDevExpert/)
 
 # Install
 
