@@ -238,6 +238,36 @@ main {
   cursor: pointer;
 }
 
+/* Contact Form */
+
+.main_form_input {
+  font-family: var(--font_family);
+  font-size: var(--font_size);
+  color: var(--button_text_color);
+  background-color: var(--button_background_color);
+  border: 1px solid #333;
+  border-radius: 0.5em;
+  width: 41em;
+  padding: 0.8em;
+  margin-top: 1em;
+  outline: none;
+  resize: none;
+}
+
+.main_form_input:focus {
+  border-color: var(--menu_active_text_color);
+}
+
+.main_form_textarea {
+  min-height: 7em;
+}
+
+@media (max-width: 768px) {
+  .main_form_input {
+    width: 92vw;
+  }
+}
+
 /* Footer Codes */
 
 .footer_div_item {

@@ -1,0 +1,244 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sobre mim - Marcos Roberto</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap"
+    />
+    <link rel="stylesheet" href="css/reset.css" />
+    <style>
+      :root {
+        --bg: #000;
+        --card: #0e0e0e;
+        --text: #fff;
+        --accent: #f1c40f;
+        --font: "Inter", sans-serif;
+        --background_image: url("img/wallpaper.jpg");
+      }
+      body {
+        font-family: var(--font);
+        background: var(--bg) var(--background_image) no-repeat center;
+        background-size: cover;
+        background-attachment: fixed;
+        color: var(--text);
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 2em 1em;
+      }
+      .back {
+        align-self: flex-start;
+        margin-bottom: 1.5em;
+        color: var(--accent);
+        text-decoration: none;
+        font-size: 0.95em;
+      }
+      .back:hover {
+        opacity: 0.8;
+      }
+      .container {
+        width: 100%;
+        max-width: 700px;
+        display: flex;
+        flex-direction: column;
+        gap: 1.2em;
+      }
+      .card {
+        background: var(--card);
+        border-radius: 0.6em;
+        padding: 1.4em 1.6em;
+      }
+      .card h2 {
+        color: var(--accent);
+        font-size: 1.1em;
+        margin-bottom: 0.8em;
+      }
+      .card p {
+        line-height: 1.7;
+        font-size: 0.95em;
+        color: #ddd;
+      }
+      .tag-group {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.5em;
+        margin-top: 0.5em;
+      }
+      .tag {
+        background: #1a1a1a;
+        border: 1px solid #333;
+        color: #ddd;
+        border-radius: 2em;
+        padding: 0.3em 0.9em;
+        font-size: 0.85em;
+      }
+      .section-label {
+        color: var(--accent);
+        font-size: 0.8em;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        margin: 0.8em 0 0.4em;
+      }
+      ul.do-list {
+        list-style: none;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        gap: 0.4em;
+      }
+      ul.do-list li {
+        font-size: 0.95em;
+        color: #ddd;
+      }
+      .github-link {
+        display: inline-block;
+        margin-top: 0.8em;
+        color: var(--accent);
+        text-decoration: none;
+        font-size: 0.95em;
+      }
+      .github-link:hover {
+        opacity: 0.8;
+      }
+      footer {
+        margin-top: 2em;
+        color: #555;
+        font-size: 0.85em;
+      }
+    </style>
+  </head>
+  <body>
+    <a class="back" href="index.html">← Voltar</a>
+
+    <div class="container">
+      <div class="card">
+        <h2>👨‍💻 Sobre mim</h2>
+        <p>
+          Sou um profissional de Data Science com paixão por construir soluções
+          escaláveis e extrair insights de conjuntos de dados complexos.
+          Atualmente concluindo minha graduação em Ciência de Dados pela UNINTER
+          (previsão: 2026), complementei minha formação técnica com treinamentos
+          especializados na EBAC e na DSA Academy.
+        </p>
+        <p style="margin-top: 0.8em">
+          Com experiência prática em fluxos de trabalho de ciência de dados de
+          ponta a ponta, combino bases sólidas de programação com habilidades
+          analíticas avançadas para transformar desafios de negócio em soluções
+          orientadas a dados.
+        </p>
+      </div>
+
+      <div class="card">
+        <h2>🛠️ Habilidades Técnicas</h2>
+
+        <p class="section-label">Linguagens &amp; Tecnologias</p>
+        <div class="tag-group">
+          <span class="tag">Python</span>
+          <span class="tag">NumPy</span>
+          <span class="tag">Pandas</span>
+          <span class="tag">Scikit-learn</span>
+          <span class="tag">TensorFlow</span>
+          <span class="tag">PyTorch</span>
+          <span class="tag">SQL</span>
+          <span class="tag">R</span>
+          <span class="tag">JavaScript</span>
+          <span class="tag">Git</span>
+        </div>
+
+        <p class="section-label">Data Science &amp; ML</p>
+        <div class="tag-group">
+          <span class="tag">Machine Learning</span>
+          <span class="tag">Deep Learning</span>
+          <span class="tag">Predictive Analytics</span>
+          <span class="tag">Feature Engineering</span>
+          <span class="tag">Time Series</span>
+          <span class="tag">Matplotlib</span>
+          <span class="tag">Seaborn</span>
+          <span class="tag">Plotly</span>
+        </div>
+
+        <p class="section-label">Ferramentas &amp; Plataformas</p>
+        <div class="tag-group">
+          <span class="tag">Jupyter</span>
+          <span class="tag">Google Colab</span>
+          <span class="tag">Apache Spark</span>
+          <span class="tag">PostgreSQL</span>
+          <span class="tag">MongoDB</span>
+          <span class="tag">Docker</span>
+          <span class="tag">Power BI</span>
+          <span class="tag">Tableau</span>
+        </div>
+      </div>
+
+      <div class="card">
+        <h2>🎓 Formação &amp; Certificações</h2>
+        <ul class="do-list">
+          <li>🎓 Bacharelado em Ciência de Dados — UNINTER (previsão: 2026)</li>
+          <li>
+            📘 Treinamento Avançado — EBAC (British School of Creative Arts and
+            Technology)
+          </li>
+          <li>📗 Cursos Especializados — DSA Academy (Data Science Academy)</li>
+          <li>
+            🔍 Foco: Machine Learning, Big Data, Engenharia de Dados, Analytics
+            Avançado
+          </li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h2>🚀 O que eu faço</h2>
+        <ul class="do-list">
+          <li>📊 Construo pipelines ETL robustos e data warehouses</li>
+          <li>
+            🤖 Desenvolvo e implanto modelos de machine learning em produção
+          </li>
+          <li>📈 Crio visualizações de dados e dashboards</li>
+          <li>🔍 Realizo análise exploratória e testes estatísticos</li>
+          <li>💻 Contribuo com projetos open-source</li>
+          <li>
+            🎯 Resolvo problemas de negócio com abordagens orientadas a dados
+          </li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h2>💡 Interesses</h2>
+        <div class="tag-group">
+          <span class="tag">Machine Learning &amp; IA</span>
+          <span class="tag">Big Data</span>
+          <span class="tag">Cloud Computing</span>
+          <span class="tag">AWS</span>
+          <span class="tag">Google Cloud</span>
+          <span class="tag">Azure</span>
+          <span class="tag">Privacidade de Dados</span>
+          <span class="tag">Open Source</span>
+          <span class="tag">Comunidade Tech</span>
+        </div>
+      </div>
+
+      <div class="card">
+        <h2>🔗 Conecte-se comigo</h2>
+        <p>
+          Estou sempre aberto a colaborar em projetos interessantes, discutir
+          desafios de ciência de dados e contribuir com soluções inovadoras.
+          Vamos construir algo incrível juntos! 🚀
+        </p>
+        <a
+          class="github-link"
+          href="https://github.com/DedicatedDevExpert"
+          target="_blank"
+          rel="nofollow"
+          >→ github.com/DedicatedDevExpert</a
+        >
+      </div>
+    </div>
+
+    <footer>Marcos Roberto · Data Science</footer>
+  </body>
+</html>
