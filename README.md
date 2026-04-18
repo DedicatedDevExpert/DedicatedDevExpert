@@ -1,4 +1,6 @@
-# Click on my profile
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Inter&size=22&pause=1000&color=F1C40F&center=true&vCenter=true&width=500&lines=%F0%9F%91%87+Click+on+the+image+to+visit+my+profile" alt="Click on the image" />
+</p>
 
 [![Click on my profile](readme.png "Demo")](https://dedicateddevexpert.github.io/DedicatedDevExpert/)
 
